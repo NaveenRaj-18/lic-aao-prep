@@ -26,10 +26,14 @@
     A.save(); reload();
     if (el.checked && A.dayProg(n).all) A.toast('Day complete! 🎉 Add your check-in below.');
   };
-
+  function videosHtml(id) {
+    const v = YT[id]; if (!v) return '';
+    return `<div class="notice" style="background:var(--brand-soft)"><b>▶ Watch (Tamil):</b> ${v.map(x => `<a href="https://www.youtube.com/playlist?list=${x[1]}" target="_blank" rel="noopener">${esc(x[0])}</a> <small class="mut">(${x[2]} ${x[2] === 1 ? 'video' : 'videos'})</small>`).join(' · ')}<br><small class="mut">Channel: <a href="${YT_CHANNEL}" target="_blank" rel="noopener">Feel Free to Learn TAMIL</a>. Watch first, then practise this topic the same day.</small></div>`;
+  }
   function topicSummaryCard(t, compact) {
     const how = HOW[t.s];
     return `<div class="card"><div class="row between"><h2>${A.subjTag(t.s)} ${esc(t.n)}</h2><a class="btn sm" href="#/topic/${t.id}">Full notes ›</a></div>
+          ${videosHtml(t.id)}
       <h3>Key points</h3><ul class="pts">${t.pts.slice(0, compact ? 3 : 9).map(p => `<li>${esc(p)}</li>`).join('')}</ul>
       ${t.f.length ? `<h3>Formulas &amp; rules</h3>${t.f.slice(0, compact ? 4 : 20).map(f => `<div class="formula">${esc(f)}</div>`).join('')}` : ''}
       <h3>How to learn it</h3><ol class="pts">${how.learn.map(x => `<li>${esc(x)}</li>`).join('')}</ol>

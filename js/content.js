@@ -296,3 +296,30 @@ const OFFICIAL_LINKS = [
   { n: 'Union Budget', u: 'https://www.indiabudget.gov.in/' },
   { n: 'Insurance Ombudsman', u: 'https://www.cioins.co.in/' },
 ];
+/* Tamil video playlists: channel "Feel Free to Learn TAMIL". [title, playlist id, lessons] */
+const YT_CHANNEL = 'https://www.youtube.com/@FeelFreetoLearnTAMIL';
+const YT = {
+  q_basics: [['7-Level of Simplification', 'PLMq0AO5xz7lk', 5]],
+  q_num: [['Number System', 'PL1lPSVzW89HZwXdLa2ghwSpyR2nnlzSPh', 11], ['LCM and HCF', 'PL1lPSVzW89HZUIV_DTXKNldP3BKNlaEkO', 9]],
+  q_pct: [['Percentage', 'PL1lPSVzW89Hb9OB0BVOKAgya76G1ID5-k', 6]],
+  q_ratio: [['Ratio and Proportion', 'PL1lPSVzW89HaJxwWQwPOanJlAVj2b_W8h', 13], ['Partnership', 'PL1lPSVzW89HYTjJBatCTsVkp5g7irTSFC', 4]],
+  q_avg: [['Average', 'PL1lPSVzW89HZSU-2nTJm47pt8GveJBjAE', 7], ['Problems on Ages', 'PL1lPSVzW89Hbt8c59TqGLblKFQD0VezZ0', 3]],
+  q_pl: [['Profit and Loss', 'PL1lPSVzW89HZJLYTNvTx2fWfQRlv7K4Sc', 13], ['Discount', 'PL1lPSVzW89HbYdXC-jc8BwCVxsB_ld-Bx', 6]],
+  q_si: [['Simple Interest', 'PL1lPSVzW89HYTitAcAMUT6UjBWgia1eKn', 8], ['Compound Interest', 'PL1lPSVzW89HZIenqeZCBh8hJN60O0xNAm', 5]],
+  q_tw: [['Time and Work', 'PL1lPSVzW89HbbNNM-EYQDpvuqW0BxkpzB', 7], ['Pipes and Cisterns', 'PL1lPSVzW89Hb_KEyB25cPEqsD_wTeLXHc', 7]],
+  q_tsd: [['Time and Distance', 'PL1lPSVzW89HZGFBi2k5ZeCI0yGezmVPkY', 4], ['Boats and Streams', 'PL1lPSVzW89HZ9P7R2fi1U-l7zi2a60yJ3', 4]],
+  q_mix: [['Alligation and Mixture', 'PL1lPSVzW89Hay0YzztKPXArTSOD7EJBM9', 4]],
+  q_pnc: [['Permutation', 'PL1lPSVzW89HbCMNZotVw9IkwaWb5yckli', 9], ['Combination', 'PL1lPSVzW89HZDtgERCHAdmrejLbahYms5', 6], ['Probability', 'PL1lPSVzW89Hao59JXdgQTEoRPkJhXFcQQ', 7]],
+  q_geo: [['Triangle (Geometry)', 'PL1lPSVzW89Hb5RPKmNMlkWMOuFXmCLgk_', 12], ['Circle (Geometry)', 'PL1lPSVzW89HaWqe9P5inNs82XbWTn3AMI', 4], ['Cube and Cuboid', 'PL1lPSVzW89HbX3gwqwn90LHNqVoVNtJCz', 3], ['Cone and Cylinder', 'PL1lPSVzW89Ha18i1s_fqXb0nFw5At1xRm', 1]],
+  q_ns: [['Shorts (Quantitative Aptitude)', 'PL1lPSVzW89Hb_AN7VLu-CiztD1nq597si', 27]],
+  q_quad: [['Equation (check whether it covers quadratics)', 'PL1lPSVzW89HaO_-MwWqOfc7aN9DG9GOrj', 5]],
+  q_di: [['Data Interpretation', 'PL1lPSVzW89HbjJYYcO8On93-I2UsTnoqD', 15], ['Income and Expenditure (DI)', 'PL1lPSVzW89HaQLcjqb50OacHEVkc6jFVs', 3]],
+  r_ser: [['Coding and Decoding', 'PL1lPSVzW89Hb2fBx8GGHq8GJ82Pg_3dxI', 1]],
+  r_ineq: [['Inequality', 'PL1lPSVzW89HYtPalYF2IkIo2NVVddsQLC', 1], ['Coded Inequality', 'PL1lPSVzW89HYQ9ZdBrGVf4MxcrTaw_77I', 6]],
+  r_syl: [['Syllogism', 'PL1lPSVzW89HZMlfSi5G-yiAUHFlDrtDox', 7]],
+  r_blood: [['Blood Relation', 'PL1lPSVzW89HbQoi6nKX7jqCSbutL_Dg7J', 7]],
+  r_dir: [['Direction', 'PL1lPSVzW89HYSRglT5QQ4m5jEO4V5JIb-', 7]],
+  r_lin: [['Seating Arrangements (Puzzle)', 'PL1lPSVzW89Haac779U2_WQT9p9qtZo4u3', 3], ['Arrangement', 'PL1lPSVzW89HYs3VvvOieT7zO58VB1Qc_e', 8]],
+  r_circ: [['Arrangement', 'PL1lPSVzW89HYs3VvvOieT7zO58VB1Qc_e', 8]],
+  r_puz: [['Box Arrangement', 'PL1lPSVzW89HZun-3KUh93rrGrVkRf3SKI', 10], ['Seating Arrangement (Mains Level)', 'PL1lPSVzW89HbkA72vuJBgKI6cFaBRAKHp', 7]],
+};
